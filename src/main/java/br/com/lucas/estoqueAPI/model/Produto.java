@@ -6,7 +6,9 @@ import javax.persistence.*;
 @Table(name="produto")
 public class Produto {
 
+    // Primary Key
     @Id
+    // Auto-Increment
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 

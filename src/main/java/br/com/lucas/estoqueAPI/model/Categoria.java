@@ -6,7 +6,9 @@ import javax.persistence.*;
 @Table(name="categoria")
 public class Categoria {
 
+    // Primary Key
     @Id
+    // Auto-Increment
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
@@ -27,7 +29,4 @@ public class Categoria {
     }
 
     private String nomecategoria;
-
-
-
 }
